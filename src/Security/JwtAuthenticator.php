@@ -37,6 +37,7 @@ class JwtAuthenticator extends AbstractGuardAuthenticator
     {
         // var_dump($request->headers);
         // var_dump($request->headers->has('Authorization'));
+        
         return $request->headers->has('Authorization');
     }
 

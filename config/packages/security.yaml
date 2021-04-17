@@ -16,7 +16,7 @@ security:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
         main:
-            pattern: ^/api
+            pattern: (.*)/api
             anonymous: false
             lazy: true
             provider: app_user_provider
